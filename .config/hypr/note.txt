@@ -1,0 +1,1 @@
+use "hyprctl clients | less" to find the class to use windowrule
