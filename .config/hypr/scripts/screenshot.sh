@@ -9,12 +9,12 @@ close='Close menu'
 
 # rofi cmd
 rofi_cmd() {
-	rofi -dmenu -p "Screenshot" -theme "$HOME/.config/rofi/theme.rasi" 
+  rofi -dmenu -p "Screenshot" -theme "$HOME/.config/rofi/theme_mini.rasi"
 }
 
 # pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$option_1\n$option_2\n$option_3\n$option_4\n$close" | rofi_cmd
+  echo -e "$option_1\n$option_2\n$option_3\n$option_4\n$close" | rofi_cmd
 }
 
 # screenshot
@@ -24,67 +24,67 @@ file="Screenshot_$time.png"
 
 # directory
 if [[ ! -d "$dir" ]]; then
-	mkdir -p "$dir"
+  mkdir -p "$dir"
 fi
 
 # notify and view screenshot
 notify_view() {
-	notify_cmd_shot='dunstify -u low -h string:x-dunst-stack-tag:screenshot'
-	${notify_cmd_shot} "📋 Copied to clipboard"
-	if [[ -e "$dir/$file" ]]; then
+  notify_cmd_shot='dunstify -u low -h string:x-dunst-stack-tag:screenshot'
+  ${notify_cmd_shot} "📋 Copied to clipboard"
+  if [[ -e "$dir/$file" ]]; then
     ${notify_cmd_shot} "📷 Screenshot taken"
-	else
-		${notify_cmd_shot} "📷 Screenshot deleted"
-	fi
+  else
+    ${notify_cmd_shot} "📷 Screenshot deleted"
+  fi
 }
 
 # copy screenshot to clipboard
-copy_shot () {
-	tee "$file" | wl-copy
+copy_shot() {
+  tee "$file" | wl-copy
 }
 
 # countdown
-countdown () {
+countdown() {
   for sec in $(seq "$1" -1 1); do
-		dunstify -t 1000 -h string:x-dunst-stack-tag:screenshottimer -i /usr/share/archcraft/icons/dunst/timer.png "Taking shot in: $sec"
-		sleep 1
-	done
+    dunstify -t 1000 -h string:x-dunst-stack-tag:screenshottimer -i /usr/share/archcraft/icons/dunst/timer.png "Taking shot in: $sec"
+    sleep 1
+  done
 }
 
 # take shots
-shotnow () {
-	cd "$dir" && sleep 0.5 && grim - | copy_shot
-	notify_view
+shotnow() {
+  cd "$dir" && sleep 0.5 && grim - | copy_shot
+  notify_view
 }
 
-shot5 () {
-	countdown '5'
-	sleep 1 && cd "$dir" && grim - | copy_shot
-	notify_view
+shot5() {
+  countdown '5'
+  sleep 1 && cd "$dir" && grim - | copy_shot
+  notify_view
 }
 
-shot10 () {
-	countdown '10'
-	sleep 1 && cd "$dir" && grim - | copy_shot
-	notify_view
+shot10() {
+  countdown '10'
+  sleep 1 && cd "$dir" && grim - | copy_shot
+  notify_view
 }
 
-shotarea () {
-	cd "$dir" && grim -g "$(slurp)" - | copy_shot
-	notify_view
+shotarea() {
+  cd "$dir" && grim -g "$(slurp)" - | copy_shot
+  notify_view
 }
 
 # run
 case $1 in
-  --shotnow) shotnow;;
-  --area) shotarea ;;
-  --delay) shot5 ;;
+--shotnow) shotnow ;;
+--area) shotarea ;;
+--delay) shot5 ;;
 esac
 
 chosen="$(run_rofi)"
 case "$chosen" in
-    "$option_1") shotnow ;;
-    "$option_2") shotarea ;;
-    "$option_3") shot5 ;;
-    "$option_4") shot10 ;;
+"$option_1") shotnow ;;
+"$option_2") shotarea ;;
+"$option_3") shot5 ;;
+"$option_4") shot10 ;;
 esac

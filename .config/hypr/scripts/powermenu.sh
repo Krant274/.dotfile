@@ -10,19 +10,19 @@ logout='Log Out'
 close='Close'
 
 # consts
-uptime="`uptime -p | sed -e 's/up //g'`"
+uptime="$(uptime -p | sed -e 's/up //g')"
 
 # rofi cmd
 rofi_cmd() {
-	rofi -dmenu \
-        -p "Goodbye $USER!" \
-        -theme "$HOME"/.config/rofi/powermenu.rasi \
-        -mesg "Uptime: $uptime"
+  rofi -dmenu \
+    -p "Goodbye $USER!" \
+    -theme "$HOME"/.config/rofi/theme_mini.rasi \
+    -mesg "Uptime: $uptime"
 }
 
 # pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$lock\n$restart_wm\n$suspend\n$logout\n$reboot\n$shutdown\n$close" | rofi_cmd
+  echo -e "$lock\n$restart_wm\n$suspend\n$logout\n$reboot\n$shutdown\n$close" | rofi_cmd
 }
 
 option_poweroff() {
@@ -39,7 +39,7 @@ option_poweroff() {
 
 option_reboot() {
   if command -v systemctl &>/dev/null; then
-	systemctl reboot
+    systemctl reboot
   elif command -v loginctl &>/dev/null; then
     loginctl reboot
   elif command -v shutdown &>/dev/null; then
@@ -51,7 +51,7 @@ option_reboot() {
 
 option_suspend() {
   if command -v systemctl &>/dev/null; then
-		systemctl suspend
+    systemctl suspend
   elif command -v loginctl &>/dev/null; then
     loginctl suspend
   fi
@@ -60,10 +60,10 @@ option_suspend() {
 # run
 chosen="$(run_rofi)"
 case "$chosen" in
-    "$shutdown") option_poweroff ;;
-    "$reboot") option_reboot ;;
-    "$restart_wm") hyprctl reload ;;
-    "$lock") "$HOME"/.config/hypr/scripts/lockscreen.sh ;;
-    "$suspend") option_suspend ;;
-    "$logout") pkill -SIGKILL -u $(whoami) ;;
+"$shutdown") option_poweroff ;;
+"$reboot") option_reboot ;;
+"$restart_wm") hyprctl reload ;;
+"$lock") "$HOME"/.config/hypr/scripts/lockscreen.sh ;;
+"$suspend") option_suspend ;;
+"$logout") pkill -SIGKILL -u $(whoami) ;;
 esac

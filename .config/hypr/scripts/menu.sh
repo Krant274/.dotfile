@@ -12,7 +12,7 @@ stats() {
 stats
 
 rofi_cmd() {
-  rofi -dmenu -p "Menu" -theme "$HOME/.config/rofi/theme.rasi"
+  rofi -dmenu -p "Menu" -theme "$HOME/.config/rofi/theme_mini.rasi"
 }
 
 apps='Apps'

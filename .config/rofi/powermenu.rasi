@@ -2,9 +2,9 @@
 @import "colors.rasi"
 
 * {
-    background-color: var(background);
-    text-color: var(foreground);
-    foreground-colour: var(foreground);
+    background-color: #1e1e2e;
+    foreground-colour: #cdd6f4;
+    border-col: #7AA2F7FF;
 }
 
 configuration {
@@ -15,6 +15,8 @@ window {
     width: 25%;
     height: 45%;
     transparency: "real";
+     border: 3px;
+    border-color: @border-col;
     padding: 20px 10px 10px 10px;
 }
 
@@ -23,10 +25,12 @@ inputbar {
     background-color:            transparent;
     children:                    [ "prompt"];
     padding: 25px;
+    border-radius: 5px;
 }
 
 prompt {
     font: var(big-font);
+    border-radius: 3px;
 }
 
 dummy {
