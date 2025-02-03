@@ -1,0 +1,54 @@
+{
+  "language": "en",
+  "downloadsFolder": "/home/krant/.lmstudio/models",
+  "sidebar": {
+    "showButtonNames": false
+  },
+  "configs": {
+    "expandConfigsOnClick": true
+  },
+  "chat": {
+    "showSuggestionsOnNewChat": true,
+    "alwaysShowPromptTemplate": false,
+    "useShiftEnterToSendMessage": false,
+    "useKeychordToRegenerate": true,
+    "unloadPreviousModelOnSelect": true,
+    "highlightChatMessageOnHover": true,
+    "doubleClickMessageToEdit": true,
+    "aiNamingMode": "auto",
+    "autoExpandReasoningBlocks": false
+  },
+  "developer": {
+    "showExperimentalFeatures": false,
+    "experimentalLoadPresets": false,
+    "showDebugInfoBlocksInChat": false,
+    "showModelDownloadOptionData": false,
+    "backendDownloadChannel": "stable",
+    "appUpdateChannel": "stable",
+    "allowDevelopmentPlugins": true,
+    "unloadPreviousJITModelOnLoad": true,
+    "autoUpdateExtensionPacks": true,
+    "separateReasoningContent": false
+  },
+  "ui": {
+    "missionControlFullscreen": false,
+    "showModelFileNameInMyModels": false
+  },
+  "toggledConfigDropdowns": [],
+  "userInterfaceComplexityLevel": 1,
+  "appFirstLoad": false,
+  "autoLoadBundledLLM": true,
+  "modelLoadingGuardrails": {
+    "mode": "medium",
+    "customThresholdBytes": 4294967296
+  },
+  "dismissedModals": [
+    "Tool Use Onboarding"
+  ],
+  "pre030ChatsMigrated": 3,
+  "appPostUpdateNotificationPending": false,
+  "promptWhenCommittingUnsavedChangesWithNewFields": false,
+  "enableLocalService": true,
+  "cliInstalled": true,
+  "useHFProxy": false
+}

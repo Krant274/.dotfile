@@ -1,0 +1,834 @@
+[2025-01-30 14:03:02.308] [info]  App starting...
+[2025-01-30 14:03:02.311] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-30 14:03:02.954] [info]  Hardware survey for general system resources through 'vulkan' took 204.21ms
+[2025-01-30 14:03:03.136] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-30 14:03:03.136] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-30 14:03:03.137] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.8
+[2025-01-30 14:03:03.741] [info]  [AppUpdater] Received version info response
+[2025-01-30 14:03:03.742] [info]  [AppUpdater] Current version: 0.3.8 (build: 4), new version: 0.3.8 (build: 4)
+[2025-01-30 14:03:03.742] [info]  No update available: 0.3.8 (build: 4) <= 0.3.8 (build: 4)
+[2025-01-30 14:03:03.742] [info]  AppUpdater state changed to idle
+[2025-01-31 13:30:10.146] [info]  App starting...
+[2025-01-31 13:30:10.148] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-31 13:30:10.377] [info]  Hardware survey for general system resources through 'vulkan' took 220.80ms
+[2025-01-31 13:30:10.552] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-31 13:30:10.553] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-31 13:30:10.554] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.8
+[2025-01-31 13:30:11.280] [info]  [AppUpdater] Received version info response
+[2025-01-31 13:30:11.281] [info]  [AppUpdater] Current version: 0.3.8 (build: 4), new version: 0.3.9 (build: 5)
+[2025-01-31 13:30:11.281] [info]  Update available: 0.3.9 > 0.3.8
+[2025-01-31 13:30:11.282] [info]  AppUpdater state changed to update-available
+[2025-01-31 13:36:15.251] [info]  AppUpdater state changed to remind-me-later
+[2025-01-31 13:38:15.427] [info]  App starting...
+[2025-01-31 13:38:15.429] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-31 13:38:15.644] [info]  Hardware survey for general system resources through 'vulkan' took 207.77ms
+[2025-01-31 13:38:15.818] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-31 13:38:15.819] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-31 13:38:15.819] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.9
+[2025-01-31 13:38:16.387] [info]  [AppUpdater] Received version info response
+[2025-01-31 13:38:16.388] [info]  [AppUpdater] Current version: 0.3.9 (build: 4), new version: 0.3.9 (build: 5)
+[2025-01-31 13:38:16.388] [info]  Update available: 0.3.9 > 0.3.9
+[2025-01-31 13:38:16.388] [info]  AppUpdater state changed to update-available
+[2025-01-31 13:51:33.735] [error] [97m[LMSInternal][Client=plugin:builtin:lmstudio/default-generator][Endpoint=predict][39m Error in channel handler: Error: Model reloaded.
+    at _0x295e34._0xa4b72c (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:272293)
+    at _0x295e34.emit (node:events:531:35)
+    at _0x295e34.onChildExit (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:242592)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:241899)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71438)
+[2025-01-31 13:51:33.737] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=sendMessage][39m Error in RPC handler: Error: Rehydrated error
+.
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:411:108782)
+    at _0x48bdd6.subscriber (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:84:1884)
+    at _0x48bdd6.notifier (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:245:138478)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+- Caused By: Error: Channel Error
+    at <computed> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:106:62908)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+- Caused By: Error: Model reloaded.
+    at _0x295e34._0xa4b72c (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:272293)
+    at _0x295e34.emit (node:events:531:35)
+    at _0x295e34.onChildExit (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:242592)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:241899)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71438)
+[2025-01-31 13:51:35.149] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=reloadModel][39m Error in RPC handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 13:51:35.151] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:51:35.151] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:51:35.152] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:51:35.152] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:51:35.163] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. fRosALcB4D0Se4mRYd4cq2I6
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 13:51:56.317] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=reloadModel][39m Error in RPC handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 13:51:56.319] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:51:56.319] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:51:56.319] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:51:56.319] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:51:56.329] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. /anSC82v4P3XkOWZKwaGF07Z
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 13:52:44.199] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 13:52:44.200] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 13:52:44.202] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:52:44.202] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:52:44.203] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:52:44.203] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:52:44.203] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:52:44.204] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:52:44.204] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:52:44.204] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:52:44.213] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. AP2g5RhylTGaVeMpJOTUMiHw
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 13:53:08.141] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 13:53:08.142] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 13:53:08.144] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:08.145] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:08.145] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:08.145] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:08.145] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:08.145] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:08.146] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:08.146] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:08.151] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. k/XP9ndOiTp5fd3UjdWOQBrI
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuYfy9QT/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 13:53:17.456] [info]  App starting...
+[2025-01-31 13:53:17.459] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-31 13:53:17.767] [info]  Hardware survey for general system resources through 'vulkan' took 298.16ms
+[2025-01-31 13:53:18.008] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-31 13:53:18.008] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-31 13:53:18.009] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.9
+[2025-01-31 13:53:18.664] [info]  [AppUpdater] Received version info response
+[2025-01-31 13:53:18.664] [info]  [AppUpdater] Current version: 0.3.9 (build: 4), new version: 0.3.9 (build: 5)
+[2025-01-31 13:53:18.664] [info]  Update available: 0.3.9 > 0.3.9
+[2025-01-31 13:53:18.665] [info]  AppUpdater state changed to update-available
+[2025-01-31 13:53:29.199] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 13:53:29.201] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 13:53:29.204] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:29.205] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:29.205] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:29.206] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:29.206] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:29.206] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 13:53:29.215] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. sjTYwH/OiRSAqyHFjq2XbFbk
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuR25l1V/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:25:14.061] [info]  App starting...
+[2025-01-31 14:25:14.063] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-31 14:25:14.276] [info]  Hardware survey for general system resources through 'vulkan' took 206.39ms
+[2025-01-31 14:25:14.454] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-31 14:25:14.455] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-31 14:25:14.456] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.9
+[2025-01-31 14:25:15.026] [info]  [AppUpdater] Received version info response
+[2025-01-31 14:25:15.026] [info]  [AppUpdater] Current version: 0.3.9 (build: 4), new version: 0.3.9 (build: 5)
+[2025-01-31 14:25:15.027] [info]  Update available: 0.3.9 > 0.3.9
+[2025-01-31 14:25:15.027] [info]  AppUpdater state changed to update-available
+[2025-01-31 14:25:18.544] [info]  AppUpdater state changed to remind-me-later
+[2025-01-31 14:25:37.296] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 14:25:37.298] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 14:25:37.300] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:37.301] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:37.301] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:37.302] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:37.302] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:37.302] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:37.312] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. 2unQMKQdLF70JU68KKlGBftm
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:25:49.107] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 14:25:49.109] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 14:25:49.110] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:49.111] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:49.111] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:49.112] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:49.112] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:49.112] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:49.112] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:49.113] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:25:49.121] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. cdXTEgYC8sZutiz2VkSGHtcf
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:26:23.949] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 14:26:23.950] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 14:26:23.953] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:26:23.953] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:26:23.954] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:26:23.954] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:26:23.955] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:26:23.955] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:26:23.955] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:26:23.956] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:26:23.965] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. c+9Le6hE7oPwMUwtNNeMvzPD
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:26:38.112] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. XVIBg7hybI2AMY7kBN6hJc0q
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:27:08.328] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 14:27:08.330] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 14:27:08.333] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:27:08.334] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:27:08.334] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:27:08.335] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:27:08.335] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:27:08.335] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:27:08.335] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:27:08.336] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:27:08.342] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. OsNLdNmFFdT4f1EwLFJUih2Y
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuklwbCv/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:32:46.502] [info]  App starting...
+[2025-01-31 14:32:46.504] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-31 14:32:46.730] [info]  Hardware survey for general system resources through 'vulkan' took 217.58ms
+[2025-01-31 14:32:46.919] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-31 14:32:46.920] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-31 14:32:46.920] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.9
+[2025-01-31 14:32:47.674] [info]  [AppUpdater] Received version info response
+[2025-01-31 14:32:47.675] [info]  [AppUpdater] Current version: 0.3.9 (build: 4), new version: 0.3.9 (build: 5)
+[2025-01-31 14:32:47.675] [info]  Update available: 0.3.9 > 0.3.9
+[2025-01-31 14:32:47.675] [info]  AppUpdater state changed to update-available
+[2025-01-31 14:33:05.738] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 14:33:05.741] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 14:33:05.743] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:33:05.744] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:33:05.744] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:33:05.745] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:33:05.745] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:33:05.745] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:33:05.753] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. zBqJUBAQGQXjf3xZlJEHSJSf
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:34:18.748] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. Bh3o/ONEvCPzpDeNktsZYTHI
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:34:37.398] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. 2y2ufaQVnUZH7BEl3PHoH+jG
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:34:45.634] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. J6CtocSRvPsloDe1Otxzi5E7
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:35:06.815] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. sN2ypyWVTv8tXm1SByi9yvMW
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:35:09.530] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 14:35:09.531] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 14:35:09.533] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:09.534] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:09.535] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:09.535] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:09.535] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:09.535] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:09.535] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:09.536] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:09.542] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. pf/oJ0FtR5BRzwJzaM+dS8bI
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:35:19.066] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x3d177a (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:291426)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error: Failed to load model
+    at _0x13cf5c.<computed>.load (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:9:40979)
+    at async Object.loadModel (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:14:9629)
+    at async Object.handleMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/lib/llmworker.js:14:1784)
+[2025-01-31 14:35:19.068] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 14:35:19.070] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:19.071] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:19.072] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:19.072] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:19.073] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:19.073] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:19.074] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:19.074] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:24:289118
+[2025-01-31 14:35:19.080] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. AbrNm4ZgEegQJfR4ENBCwJMr
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:35:40.693] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. SD/NPvvYQDHJQk4AERp2gooV
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 14:38:41.446] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. q0WV0e3EJ7ugtqoUhTSITUdG
+    at _0x1d449c.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:13914)
+    at _0x1d449c.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:66:16488)
+    at Object.handler (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:71:20024)
+    at _0x48eb1a.<computed>.receivedRpcCall (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:368:140)
+    at _0xc94205.receivedMessage (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:13367)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stu8tjxuf/resources/app/.webpack/main/index.js:341:11818)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 16:08:41.218] [info]  App starting...
+[2025-01-31 16:08:41.221] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-31 16:08:41.439] [info]  Hardware survey for general system resources through 'vulkan' took 210.93ms
+[2025-01-31 16:08:41.622] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-31 16:08:41.623] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-31 16:08:41.623] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.9
+[2025-01-31 16:08:42.258] [info]  [AppUpdater] Received version info response
+[2025-01-31 16:08:42.259] [info]  [AppUpdater] Current version: 0.3.9 (build: 4), new version: 0.3.9 (build: 5)
+[2025-01-31 16:08:42.259] [info]  Update available: 0.3.9 > 0.3.9
+[2025-01-31 16:08:42.260] [info]  AppUpdater state changed to update-available
+[2025-01-31 16:15:24.663] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=predict][39m Error in channel handler: Error: received prediction-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x44fdbb (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:24:271798)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error
+    at _0x13cf5c.<computed>.predictTokens (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/lib/llmworker.js:9:49156)
+    at async Object.predictTokens (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/lib/llmworker.js:14:10578)
+    at async Object.handleMessage (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/lib/llmworker.js:14:2021)
+[2025-01-31 16:15:24.664] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=continueAssistantMessageAtIndex][39m Error in RPC handler: Error: Channel Error
+    at _0x4423f7.continueAssistantMessage (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:46:9479)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _0x4423f7.continueAssistantMessageAtIndex (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:46:14186)
+    at async Object.handler (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:106:7957)
+- Caused By: Error: received prediction-error
+    at _0x22c3d2.<computed> (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:411:108782)
+    at _0x295e34._0x44fdbb (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:24:271798)
+    at _0x295e34.emit (node:events:519:28)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:24:243205)
+    at _0x295e34.onChildMessage (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:24:289465)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/main/index.js:24:242161)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error
+    at _0x13cf5c.<computed>.predictTokens (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/lib/llmworker.js:9:49156)
+    at async Object.predictTokens (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/lib/llmworker.js:14:10578)
+    at async Object.handleMessage (/tmp/.mount_lm-stuT3DJKL/resources/app/.webpack/lib/llmworker.js:14:2021)
+[2025-01-31 21:06:50.629] [info]  App starting...
+[2025-01-31 21:06:50.632] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-31 21:06:50.878] [info]  Hardware survey for general system resources through 'vulkan' took 239.06ms
+[2025-01-31 21:06:51.062] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-31 21:06:51.062] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-31 21:06:51.062] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.9
+[2025-01-31 21:06:51.735] [info]  [AppUpdater] Received version info response
+[2025-01-31 21:06:51.736] [info]  [AppUpdater] Current version: 0.3.9 (build: 4), new version: 0.3.9 (build: 5)
+[2025-01-31 21:06:51.736] [info]  Update available: 0.3.9 > 0.3.9
+[2025-01-31 21:06:51.736] [info]  AppUpdater state changed to update-available
+[2025-01-31 22:43:26.759] [info]  App starting...
+[2025-01-31 22:43:26.761] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-01-31 22:43:26.977] [info]  Hardware survey for general system resources through 'vulkan' took 209.90ms
+[2025-01-31 22:43:27.153] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-01-31 22:43:27.153] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-01-31 22:43:27.154] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.9
+[2025-01-31 22:43:27.737] [info]  [AppUpdater] Received version info response
+[2025-01-31 22:43:27.737] [info]  [AppUpdater] Current version: 0.3.9 (build: 5), new version: 0.3.9 (build: 5)
+[2025-01-31 22:43:27.738] [info]  No update available: 0.3.9 (build: 5) <= 0.3.9 (build: 5)
+[2025-01-31 22:43:27.738] [info]  AppUpdater state changed to idle
+[2025-01-31 22:52:19.699] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Cannot find model of instance reference. QzwDmjXtRGgJBPCPCKWq/iF0
+    at _0x4e504e.<computed>.getInstanceBySpecifierOrThrow (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:66:13981)
+    at _0x4e504e.<computed>.getLLMModelBySpecifierOrThrow (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:66:16520)
+    at Object.handler (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:71:19841)
+    at _0x308521.ServerPort.receivedRpcCall (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:368:158)
+    at <computed> [as receivedMessage] (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:341:13409)
+    at MessagePortMain.<anonymous> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:341:11809)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/browser_init:2:105846)
+[2025-01-31 22:52:23.722] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Error loading model.
+    at _0xec20b3._0x4b6ebd (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:293365)
+    at _0xec20b3.emit (node:events:519:28)
+    at _0xec20b3.onChildExit (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:243565)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:242945)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71438)
+[2025-01-31 22:52:23.724] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 22:52:24.723] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.723] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.724] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.725] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.725] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.725] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.726] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.726] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.726] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:24.726] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:32.848] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Error loading model.
+    at _0xec20b3._0x4b6ebd (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:293365)
+    at _0xec20b3.emit (node:events:519:28)
+    at _0xec20b3.onChildExit (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:243565)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:242945)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71438)
+[2025-01-31 22:52:32.849] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 22:52:33.849] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.850] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.850] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.850] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.851] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.851] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.851] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.851] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.851] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:33.852] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:46.195] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Error loading model.
+    at _0xec20b3._0x4b6ebd (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:293365)
+    at _0xec20b3.emit (node:events:519:28)
+    at _0xec20b3.onChildExit (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:243565)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:242945)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71438)
+[2025-01-31 22:52:46.196] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 22:52:47.196] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.196] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.196] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.197] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.197] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.197] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.197] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.197] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.197] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:52:47.198] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:38.871] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Error loading model.
+    at _0xec20b3._0x4b6ebd (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:293365)
+    at _0xec20b3.emit (node:events:519:28)
+    at _0xec20b3.onChildExit (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:243565)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:242945)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71438)
+[2025-01-31 22:53:38.873] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-01-31 22:53:39.872] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.873] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.873] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.873] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.874] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.874] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.874] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.874] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.874] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:39.874] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:289905
+[2025-01-31 22:53:46.056] [error] [97m[LMSInternal][Client=plugin:builtin:lmstudio/default-generator][Endpoint=predict][39m Error in channel handler: Error: Model unloaded.
+    at _0xec20b3._0x3b507f (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:272917)
+    at _0xec20b3.emit (node:events:519:28)
+    at _0xec20b3.onChildExit (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:243565)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:242945)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71438)
+[2025-01-31 22:53:46.060] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=sendMessage][39m Error in RPC handler: Error: Rehydrated error
+.
+    at _0xb52c7b.<computed> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:411:107021)
+    at _0x3977d0.subscriber (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:84:1827)
+    at _0x3977d0.notifier (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:245:138026)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+- Caused By: Error: Channel Error
+    at <computed> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:106:63067)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+- Caused By: Error: Model unloaded.
+    at _0xec20b3._0x3b507f (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:272917)
+    at _0xec20b3.emit (node:events:519:28)
+    at _0xec20b3.onChildExit (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:243565)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuNPA2FI/resources/app/.webpack/main/index.js:24:242945)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71438)
+[2025-02-01 21:28:21.058] [info]  App starting...
+[2025-02-01 21:28:21.062] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-02-01 21:28:21.398] [info]  Hardware survey for general system resources through 'vulkan' took 326.12ms
+[2025-02-01 21:28:21.607] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-02-01 21:28:21.607] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-02-01 21:28:21.608] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.9
+[2025-02-01 21:28:22.277] [info]  [AppUpdater] Received version info response
+[2025-02-01 21:28:22.277] [info]  [AppUpdater] Current version: 0.3.9 (build: 5), new version: 0.3.9 (build: 5)
+[2025-02-01 21:28:22.277] [info]  No update available: 0.3.9 (build: 5) <= 0.3.9 (build: 5)
+[2025-02-01 21:28:22.278] [info]  AppUpdater state changed to idle
+[2025-02-01 22:39:27.538] [error] [97m[LMSInternal][Client=plugin:builtin:lmstudio/default-generator][Endpoint=predict][39m Error in channel handler: Error: received prediction-error
+    at _0xb52c7b.<computed> (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:411:107021)
+    at _0xec20b3._0x14ca2f (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:24:272561)
+    at _0xec20b3.emit (node:events:519:28)
+    at _0xec20b3.onChildMessage (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:24:244158)
+    at _0xec20b3.onChildMessage (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:24:290250)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:24:243171)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error
+    at _0x4053cb.<computed>.predictTokens (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/lib/llmworker.js:9:48640)
+    at async Object.predictTokens (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/lib/llmworker.js:14:10419)
+    at async Object.handleMessage (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/lib/llmworker.js:14:2007)
+[2025-02-01 22:39:27.541] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=sendMessage][39m Error in RPC handler: Error: Rehydrated error
+b.<computed> (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:411:107021)
+    at _0x3977d0.subscriber (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:84:1827)
+    at _0x3977d0.notifier (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:245:138026)
+- Caused By: Error: Channel Error
+    at <computed> (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:106:63067)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+- Caused By: Error: received prediction-error
+    at _0xb52c7b.<computed> (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:411:107021)
+    at _0xec20b3._0x14ca2f (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:24:272561)
+    at _0xec20b3.emit (node:events:519:28)
+    at _0xec20b3.onChildMessage (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:24:244158)
+    at _0xec20b3.onChildMessage (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:24:290250)
+    at ForkUtilityProcess.<anonymous> (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/main/index.js:24:243171)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71823)
+- Caused By: Error
+    at _0x4053cb.<computed>.predictTokens (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/lib/llmworker.js:9:48640)
+    at async Object.predictTokens (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/lib/llmworker.js:14:10419)
+    at async Object.handleMessage (/tmp/.mount_lm-stuZ41kUB/resources/app/.webpack/lib/llmworker.js:14:2007)

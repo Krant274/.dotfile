@@ -1,0 +1,48 @@
+2025/02/01-21:41:00.153 60fe Reusing MANIFEST /home/krant/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/02/01-21:41:00.160 60fe Recovering log #10
+2025/02/01-21:41:00.162 60fe Reusing old log /home/krant/.config/discord/Local Storage/leveldb/000010.log 
+2025/02/01-21:45:26.240 60fe Level-0 table #14: started
+2025/02/01-21:45:26.272 60fe Level-0 table #14: 3367610 bytes OK
+2025/02/01-21:45:26.279 60fe Delete type=0 #10
+2025/02/01-22:14:01.551 60ff Level-0 table #16: started
+2025/02/01-22:14:01.561 60ff Level-0 table #16: 14013 bytes OK
+2025/02/01-22:14:01.568 60ff Delete type=0 #13
+2025/02/01-22:14:01.568 60ff Compacting 4@0 + 1@1 files
+2025/02/01-22:14:01.588 60ff Generated table #17@0: 5 keys, 2461325 bytes
+2025/02/01-22:14:01.611 60ff Generated table #18@0: 28 keys, 904584 bytes
+2025/02/01-22:14:01.611 60ff Compacted 4@0 + 1@1 files => 3365909 bytes
+2025/02/01-22:14:01.617 60ff compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/02/01-22:14:01.617 60ff Delete type=2 #7
+2025/02/01-22:14:01.617 60ff Delete type=2 #9
+2025/02/01-22:14:01.617 60ff Delete type=2 #11
+2025/02/01-22:14:01.617 60ff Delete type=2 #14
+2025/02/01-22:14:01.617 60ff Delete type=2 #16
+2025/02/01-22:25:01.551 60ff Level-0 table #20: started
+2025/02/01-22:25:01.561 60ff Level-0 table #20: 18166 bytes OK
+2025/02/01-22:25:01.567 60ff Delete type=0 #15
+2025/02/01-22:34:15.806 60ff Level-0 table #22: started
+2025/02/01-22:34:15.816 60ff Level-0 table #22: 15467 bytes OK
+2025/02/01-22:34:15.822 60ff Delete type=0 #19
+2025/02/01-22:40:01.551 60fe Level-0 table #24: started
+2025/02/01-22:40:01.562 60fe Level-0 table #24: 15949 bytes OK
+2025/02/01-22:40:01.568 60fe Delete type=0 #21
+2025/02/01-22:50:01.551 60ff Level-0 table #26: started
+2025/02/01-22:50:01.561 60ff Level-0 table #26: 14359 bytes OK
+2025/02/01-22:50:01.567 60ff Delete type=0 #23
+2025/02/01-22:50:01.567 60ff Compacting 4@0 + 2@1 files
+2025/02/01-22:50:01.587 60ff Generated table #27@0: 5 keys, 2461325 bytes
+2025/02/01-22:50:01.604 60ff Generated table #28@0: 29 keys, 906433 bytes
+2025/02/01-22:50:01.604 60ff Compacted 4@0 + 2@1 files => 3367758 bytes
+2025/02/01-22:50:01.610 60ff compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/02/01-22:50:01.610 60ff Delete type=2 #17
+2025/02/01-22:50:01.610 60ff Delete type=2 #18
+2025/02/01-22:50:01.610 60ff Delete type=2 #20
+2025/02/01-22:50:01.610 60ff Delete type=2 #22
+2025/02/01-22:50:01.610 60ff Delete type=2 #24
+2025/02/01-22:50:01.610 60ff Delete type=2 #26
+2025/02/01-23:18:19.104 60ff Level-0 table #30: started
+2025/02/01-23:18:19.114 60ff Level-0 table #30: 15091 bytes OK
+2025/02/01-23:18:19.120 60ff Delete type=0 #25
+2025/02/01-23:44:01.550 60ff Level-0 table #32: started
+2025/02/01-23:44:01.560 60ff Level-0 table #32: 31308 bytes OK
+2025/02/01-23:44:01.566 60ff Delete type=0 #29
